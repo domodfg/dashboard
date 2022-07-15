@@ -15,7 +15,9 @@ body {
 }
 
 .header {
+    position: relative;
     grid-column: 2 / 3;
+    box-shadow: 1px 1px 5px #94a3b8;
 }
 
 .sidebar {
@@ -27,4 +29,35 @@ body {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     background-color: #f1f5f9;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    gap: 200px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+input {
+    border: none;
+    background-color: #e2e8f0;
+    border-radius: 15px;
+    flex: 1;
+    padding-left: 15px;
+}
+
+.profile-pic {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.userIcon {
+    width: max(40px, 1vw);
 }
