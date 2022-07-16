@@ -149,8 +149,13 @@ input {
 .content {
   display: grid;
   grid-template-columns: 2.2fr 1fr;
-  grid-template-rows: 0.45fr 3fr;
+  grid-template-rows: 0.45fr 5fr;
   align-items: center;
+}
+
+.content .description{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .description {
@@ -173,7 +178,7 @@ input {
   grid-template-rows: 1fr 1.3fr 0.7fr;
   font-size: 0.9rem;
   color: #4b5563;
-  height: 25.1vh;
+  height: 25vh;
   background-color: white;
   border-radius: 12px;
   border-left: 7px #f472b6 solid;
